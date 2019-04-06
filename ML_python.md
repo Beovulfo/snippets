@@ -55,6 +55,9 @@ regd = DecisionTreeRegressor(max_depth=3)
 # Fit the data
 regd.fit(X,y)
 ```
+# Random Forest
+
+# Gradient Boosting Tree
 
 # Classification
 ## Logistic regression
@@ -102,6 +105,9 @@ clf = SVC(kernel="linear",C=10)
 # Fit the data
 clf.fit(X,y)
 ```
+# Random Forest
+
+# Gradient Boosting Tree
 
 
 
