@@ -68,13 +68,14 @@ clf.fit(X,y)
 ```
 ## K nearest neighbors
 ```python
-# Import Library
-from sklearn.tree import DecisionTreeClassifier
-# Create instance
-clf = DecisionTreeClassifier(min_samples_leaf=20,max_depth=3)
-# Fit
-clf.fit(X,y)
+# Load the library
+from sklearn.neighbors import KNeighborsClassifier
+# Create an instance
+regk = KNeighborsClassifier(n_neighbors=2)
+# Fit the data
+regk.fit(X,y)
 ```
+
 ## Decision Tree
 ```python
 # Import library
